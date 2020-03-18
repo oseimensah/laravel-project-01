@@ -1,0 +1,41 @@
+.gradient {
+    /*background: linear-gradient(90deg, #d53369 0%, #daae51 100%);*/
+    background: linear-gradient(90deg, crimson 0%, darkslateblue 100%);
+    /*background: linear-gradient(90deg, $brand-1 0%, $brand-2 100%);*/
+}
+.body-back{
+    background-color: #33363b;
+}
+.nav-back{
+    background-color: #24262c;
+}
+.search-back{
+    background-color: #a6a6a6;
+}
+.main-text{
+    color: #a6a6a6;
+}
+.hr{
+    width: 3.5em;
+    height: 2px;
+    background-color: #5f89a3;
+}
+.text-2{
+    color: #5f89a3;
+}
+.background-2{
+    background-color: #5f89a3;
+}
+.background-3{
+    background-color: #6d98a3;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navi li a:hover{
+    color: lightgray;
+}
+.active a{
+    color: lightgray;
+    border-bottom: 2px solid #5f89a3;
+}
