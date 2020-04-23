@@ -43,7 +43,7 @@
                                     <select class="block appearance-none @error('tags')border-red-500 @enderror w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                             multiple name="tags[]" id="grid-state">
                                         @foreach($tags as $tag)
-                                        <option value="{{ $tag->id }}">{{ $tag->name }}</option>a
+                                        <option value="{{ $tag->id }}">{{ $tag->name }}</option>
                                         @endforeach
                                     </select>
                                     @error('tags')
